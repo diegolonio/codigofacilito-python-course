@@ -7,9 +7,9 @@ E = 2.718281828
 class Circle:
     pi = 3.14159265
     def area(self):
-        return self.pi * self.ratio**2
+        return self.pi * self.radius**2
 circle = Circle()
-circle.ratio = E**2
+circle.radius = E**2
 area = circle.area()
 print(area)
 
@@ -17,8 +17,8 @@ print(area)
 class Circle:
     pi = 3.14159265
     @classmethod
-    def area(cls, ratio):
-        return cls.pi * ratio**2
+    def area(cls, radius):
+        return cls.pi * radius**2
 '''Class methods must to receive parameters, you can
 use any other word, but by convention we use cls'''
 

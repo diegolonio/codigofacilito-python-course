@@ -9,15 +9,15 @@ variable value of an instance, it won't change in any other instance'''
 
 class Circle:
     pi = 3.14159265 # Class variable
-    def __init__(self, ratio):
-        self.ratio = ratio # Instance variable
+    def __init__(self, radius):
+        self.radius = radius # Instance variable
 
 # Instance variables
 circle_a = Circle(10)
 circle_b = Circle(20)
-circle_b.ratio = 100
-print(circle_a.ratio)
-print(circle_b.ratio)
+circle_b.radius = 100
+print(circle_a.radius)
+print(circle_b.radius)
 
 # Class variables
 print(circle_a.pi)
