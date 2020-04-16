@@ -1,5 +1,3 @@
-# con import importamos las funciones de otro archivo de código
-# python al archivo en el que estamos trabajando
 '''With import keyword we import functions from another python
 code file to the current file we are working in'''
 import calculator
