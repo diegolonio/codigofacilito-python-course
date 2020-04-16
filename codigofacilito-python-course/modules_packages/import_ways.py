@@ -45,7 +45,7 @@ print(result)
 '''NOTE 1: A physical line is a line as we see it on our
 text editor each one below the prior line. A logical line is
 an entire statement line which can be extend undefinedly and
-that our text editor enumerates it and some times wraps it
+that our text editor enumerates it and sometimes wraps it
 in multiple physical lines
 
 NOTE 2: Backslashes don't only can be used on import statements
