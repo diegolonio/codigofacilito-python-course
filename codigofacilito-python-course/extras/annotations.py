@@ -18,7 +18,7 @@ def greeting(name : str, number : int) -> None:
     print('Hello ' + name, '\nAge: ' + str(number))
 
 # Function with annotations and values by default
-def greeting(name : str = 'Anónimo', number : int = 18) -> None:
+def greeting(name : str = 'Anonymus', number : int = 18) -> None:
     print('Hello ' + name, '\nAge: ' + str(number))
 
 greeting()
