@@ -1,0 +1,26 @@
+It is very important to have a standardized way to codify and always
+focus on codify the same way remember that probably we will have to
+give maintainance or add functionalities to our projects, in any case,
+to codify under a standard will allow us to create highest quality
+projects.
+
+In Python exists PEP's, proposed improvements in Python which at the
+moment to codify we will be interested in PEP8.
+
+PEP8 is a codification guide which allow us to write Python code
+in a better way, more legible and consistent, by particular 'rules'
+and recommendations. For instance, on the guide we can find:
+
+- use spaces instead of tabs
+- use snake_case nomenclature to name variables
+- use upper case letter for constants
+
+We write rules enclosed in quotes because we can create a script
+without following PEP8 recommendations, we just have to be
+consistent everytime we codify
+
+If we believe that our codifying way is the wrong or we want to follow
+the PEP8 rules then we can verify our code in this web site, we just
+have to copy the code we want to verify
+
+If you want to create your own library, we recommend to verify your code.

@@ -1,0 +1,45 @@
+In relational and logical operators we said that it is possible to
+know if two integer values are equal by using == or the is keyword.
+However, now we have more knowledge than we had in that video so 
+it is important to know when we use == or the is keyword. Let's
+take a look:
+
+If we execute the following line of code we will get as result True:
+
+[1,2,3] == [1,2,3]
+
+This is because both lists are similar. Now what if we replace the
+is keyword instead of the == operator?
+
+[1,2,3] is [1,2,3]
+
+In this case we will get False as result. This is because with the
+== operator we are comparing if both VALUES are the same and with
+the is keyword we are comparing if both OBJECTS are the same, two
+completely different things.
+
+Let's see an example:
+
+a = [1,2,3]
+b = [1,2,3]
+
+We will name the first list as a and the second list as b
+
+If we display the id of each object, we will see that both values
+are different, so we conclude that both objects are different.
+
+print(id(a))
+print(id(b))
+
+If we execute:
+
+a = [1, 2, 3]
+b = a
+
+a is b 
+
+We get True as result because a and b are the same object.
+
+In conclusion, the == operator allow us to know if two objects
+values are the same while the is keyword allow us to know if two
+objects are the same.
