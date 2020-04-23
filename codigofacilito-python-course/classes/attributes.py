@@ -8,7 +8,7 @@ class User:
     def show_user(self):
         print(self.username)
     def show_name(self):
-        print(self.nombre)
+        print(self.name)
 diego = User('Diego Apolonio', 'diego.apoloniov@gmail.com', 'diegolonio')
 
 print(diego.name)
