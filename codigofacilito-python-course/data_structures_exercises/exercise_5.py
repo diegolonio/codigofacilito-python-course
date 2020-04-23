@@ -1,6 +1,6 @@
-# Show on screen the most repeated word next to the number
+# Show on the screen the most repeated word next to the number
 # of repetitions in the chapter 1 of Frankenstein.
-# ========================================================
+# ============================================================
 
 from frankenstein import chapter_one
 

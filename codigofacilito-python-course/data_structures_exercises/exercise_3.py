@@ -1,5 +1,5 @@
 # Create a list which store 10 positive numbers entered by the
-# user. Show on screen: the sum of all of the numbers, its
+# user. Show on the screen: the sum of all of the numbers, its
 # average, the highest and the smallest number.
 # ============================================================
 

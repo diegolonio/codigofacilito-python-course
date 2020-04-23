@@ -1,6 +1,6 @@
-# Given a list of phrases entered by the user, show on screen
+# Given a list of phrases entered by the user, show on the screen
 # all those that are palindromes.
-# ===========================================================
+# ===============================================================
 
 def is_palindrome(phrase):
     phrase = phrase.lower().replace(' ', '')

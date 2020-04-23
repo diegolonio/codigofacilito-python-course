@@ -1,6 +1,7 @@
-# Given a dictionary which contains the student's notes, the keys are the subjects'
-# names and the values are the subjects' notes. Show on screen the student's average note.
-# =======================================================================================
+# Given a dictionary which contains the student's notes, the keys are the
+# subjects' names and the values are the subjects' notes. Show on the
+# screen the student's average note.
+# =======================================================================
 
 def average_note(students_notes):
     return sum(students_notes.values()) / len(students_notes)
