@@ -1,7 +1,7 @@
 # Show on the screen the number of vowels in a phrase given by the user.
 # ======================================================================
 
-VOWELS = 'aeoiu'
+VOWELS = 'aeiou'
 
 def phrase_vowels(phrase : str) -> int:
     phrase = phrase.lower()
